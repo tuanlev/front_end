@@ -226,18 +226,7 @@ export default function LoginForm({ onLoginSuccess, onShowNotification }) {
           </form>
         </Card>
 
-        {/* Demo Credentials */}
-        <div className="mt-6 p-4 bg-white/60 backdrop-blur-sm rounded-lg border border-gray-200">
-          <h3 className="text-sm font-medium text-gray-700 mb-2">🔑 Thông tin đăng nhập demo:</h3>
-          <div className="text-sm text-gray-600 space-y-1">
-            <p>
-              <strong>Tên đăng nhập:</strong> voanhdung
-            </p>
-            <p>
-              <strong>Mật khẩu:</strong> 12345678
-            </p>
-          </div>
-        </div>
+       
 
         {/* Footer */}
         <div className="text-center mt-8 text-sm text-gray-500">
